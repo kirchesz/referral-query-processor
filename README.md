@@ -11,3 +11,11 @@ https://example.com/path?a=1&ref=kirchesz&b=3 ------------------------> https://
                                                 \
                                                   -----------> https://{REPORT_URL}
 ```
+
+### Environment Variables
+|Key|Default|Note|
+|-|-|-|
+|`HOST`|`0.0.0.0`| |
+|`PORT`|`3000`| |
+|`PARSE_PARAMS`|`ref`|Query parameters keys splitten by `,`|
+|`REPORT_URL`|`undefined`||
